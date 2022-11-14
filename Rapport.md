@@ -59,10 +59,20 @@ Et on supprime le container :
 
 On créé le fichier docker-compose.yaml avec le contenu suivant : 
 
-![image](https://user-images.githubusercontent.com/73823634/201704211-17d159d8-0910-482c-b6b8-1cfffcef5726.png)
+![image](https://user-images.githubusercontent.com/111991074/201728354-ad966492-470c-4636-8d85-5c6bd041ad1e.png)
 
-On lance le script :
-![image](https://user-images.githubusercontent.com/73823634/201704438-83b9ebe2-f9bc-452d-8fed-67d2333b4158.png)
+On lance le script avec les 4 images en cours de création :
+![image](https://user-images.githubusercontent.com/111991074/201728432-b81d52a5-43af-4c33-a1a1-bd1f5af3b00c.png)
+
+Voici le résultat :
+
+![image](https://user-images.githubusercontent.com/111991074/201728670-83dccbce-7749-4ca7-a833-2629072ca380.png)
+
+![image](https://user-images.githubusercontent.com/111991074/201728717-79046e04-2263-4221-8b0d-c381bbf6f45f.png)
+
+![image](https://user-images.githubusercontent.com/111991074/201728760-93d337d4-8b3a-45f9-b29f-c9747f621ddc.png)
+
+
 
 
 
