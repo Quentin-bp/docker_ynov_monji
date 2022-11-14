@@ -61,11 +61,11 @@ On lance le script avec les 4 images en cours de création :
 ![image](https://user-images.githubusercontent.com/111991074/201728432-b81d52a5-43af-4c33-a1a1-bd1f5af3b00c.png)
 
 Voici le résultat :
-
+localhost:3000
 ![image](https://user-images.githubusercontent.com/111991074/201728670-83dccbce-7749-4ca7-a833-2629072ca380.png)
-
+localhost:5050
 ![image](https://user-images.githubusercontent.com/111991074/201728717-79046e04-2263-4221-8b0d-c381bbf6f45f.png)
-
+localhost:8069
 ![image](https://user-images.githubusercontent.com/111991074/201728760-93d337d4-8b3a-45f9-b29f-c9747f621ddc.png)
 
 
