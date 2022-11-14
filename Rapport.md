@@ -64,6 +64,6 @@ On créé le fichier docker-compose.yaml avec le contenu suivant :
 On lance le script :
 ![image](https://user-images.githubusercontent.com/73823634/201704438-83b9ebe2-f9bc-452d-8fed-67d2333b4158.png)
 
-On se connecte à lo
+
 
 
