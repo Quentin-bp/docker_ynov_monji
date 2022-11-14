@@ -1,1 +1,0 @@
-# docker_ynov_monji
