@@ -9,17 +9,17 @@ VIANA Enzo
 Importation de l'image python :
 
 
-![image](https://user-images.githubusercontent.com/73823634/201667568-f95667e0-f8e4-41a3-9e9b-400d34c28552.png)
+On créé le Dockerfile : 
 
 
-Utilisation du port 8080 pour le container :
+![image](https://user-images.githubusercontent.com/73823634/201684831-c36e0ae9-ae7e-44d0-a2b6-1c7a144ef846.png)
 
 
-![image](https://user-images.githubusercontent.com/73823634/201670420-50cd07e4-093a-4d4d-b038-d7c9fa6ee348.png)
-
-Ajout des variables d'environnement ODOO_URL et PGADMIN_URL :
-
-
-![image](https://user-images.githubusercontent.com/73823634/201677285-27fa1e18-e77e-44d0-8f26-08d85ccdaa1d.png)
+On utilise l'image de départ python:3.6-alpine que notre image héritera avec la commande FROM, puis l'on installe flask (version 1.1.2) avec RUN. On instancie ensuite les deux variables d'environnement avec la commande ENV.
+Pour terminer, on expose le port 8080 avec la commande EXPOSE qui sera le port utilisé par défault, et on lance la commande python app.py lors de la construction de l'image.
 
 
+![image](https://user-images.githubusercontent.com/73823634/201686551-582de7b6-379f-4a53-8db8-bd9281102bdb.png)
+
+
+![image](https://user-images.githubusercontent.com/73823634/201686584-af2b81ed-f058-47b4-b76e-884a280416bc.png)
