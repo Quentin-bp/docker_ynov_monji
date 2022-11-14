@@ -48,12 +48,8 @@ On vérifie que le container
 
 Enfin, on le met dans docker hub :
 
-![image](https://user-images.githubusercontent.com/73823634/201697629-ad2c5278-5c71-493c-a98f-177ea7d5d387.png)
+![image](https://user-images.githubusercontent.com/111991074/201730073-227e5696-a0bf-4238-a498-7871ccb75b1a.png)
 
-
-Et on supprime le container : 
-
-![image](https://user-images.githubusercontent.com/73823634/201697718-16bb0773-b840-4cfc-9a9d-bbf0360ae3a6.png)
 
 3/
 
