@@ -6,13 +6,15 @@ BOMPARD Quentin
 
 VIANA Enzo
 
+
+1/
+
 Importation de l'image python :
 
 
 On créé le Dockerfile : 
 
-
-![image](https://user-images.githubusercontent.com/73823634/201684831-c36e0ae9-ae7e-44d0-a2b6-1c7a144ef846.png)
+![image](https://user-images.githubusercontent.com/73823634/201700930-e4394fb7-f2fa-4a12-94d4-93a805aaf008.png)
 
 
 On utilise l'image de départ python:3.6-alpine que notre image héritera avec la commande FROM, puis l'on installe flask (version 1.1.2) avec RUN. On instancie ensuite les deux variables d'environnement avec la commande ENV.
@@ -23,3 +25,32 @@ Pour terminer, on expose le port 8080 avec la commande EXPOSE qui sera le port u
 
 
 ![image](https://user-images.githubusercontent.com/73823634/201686584-af2b81ed-f058-47b4-b76e-884a280416bc.png)
+
+
+2/
+
+On importe la dernière version de docker registry
+![image](https://user-images.githubusercontent.com/73823634/201696690-5212ccac-4b4f-4bd4-a304-171fa44fa95b.png)
+
+
+![image](https://user-images.githubusercontent.com/73823634/201697103-d862cf20-3696-4e85-93ad-b8164c9a45d1.png)
+
+
+![image](https://user-images.githubusercontent.com/73823634/201697164-3189db39-2151-46ea-950b-f095d13f6340.png)
+
+![image](https://user-images.githubusercontent.com/73823634/201697415-f968ce15-dec6-4670-a4c5-aeee59d70ce2.png)
+
+
+On vérifie que le container 
+![image](https://user-images.githubusercontent.com/73823634/201697570-78d448e0-f881-4544-a20a-5258f5780e7f.png)
+
+Enfin, on le met dans docker hub :
+
+![image](https://user-images.githubusercontent.com/73823634/201697629-ad2c5278-5c71-493c-a98f-177ea7d5d387.png)
+
+
+Et on supprime le container : 
+
+![image](https://user-images.githubusercontent.com/73823634/201697718-16bb0773-b840-4cfc-9a9d-bbf0360ae3a6.png)
+
+
