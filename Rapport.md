@@ -53,4 +53,15 @@ Et on supprime le container :
 
 ![image](https://user-images.githubusercontent.com/73823634/201697718-16bb0773-b840-4cfc-9a9d-bbf0360ae3a6.png)
 
+3/
+
+On créé le fichier docker-compose.yaml avec le contenu suivant : 
+
+![image](https://user-images.githubusercontent.com/73823634/201704211-17d159d8-0910-482c-b6b8-1cfffcef5726.png)
+
+On lance le script :
+![image](https://user-images.githubusercontent.com/73823634/201704438-83b9ebe2-f9bc-452d-8fed-67d2333b4158.png)
+
+On se connecte à lo
+
 
