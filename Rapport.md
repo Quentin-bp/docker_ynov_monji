@@ -8,8 +8,17 @@ VIANA Enzo
 
 PROUCHANDY Thomas
 
+**0/Présentation**
 
-1/
+**Passsage d'Architecture Monolithique --> Architecture Microservices** : Conteneuristation des différentes applications pour éviter la surgarche d'un seul et même système.
+
+**Passage d'une Machine Virtuelle --> Conteuneur**: Ce dernier étant plus optimiser pour ce type de travaux grace a un volume de stockage plus faible et une demande en ressources plus modérée en plus de ce délester de l'installation de l'OS.
+
+**Exploitation** : Une image peut etre facilement réutiliser, modifier, détruite et reconstruite ou encore partager grâce au Docker hub.
+
+**Open source** : Le code est libre d'acces ce qui permet une certaine liberté vis a vis des modifications.
+
+**1/Dockerfile**
 
 Importation de l'image python :
 
@@ -29,7 +38,7 @@ Pour terminer, on expose le port 8080 avec la commande EXPOSE qui sera le port u
 ![image](https://user-images.githubusercontent.com/73823634/201686584-af2b81ed-f058-47b4-b76e-884a280416bc.png)
 
 
-2/
+**2/Docker Registry**
 
 On importe la dernière version de docker registry
 ![image](https://user-images.githubusercontent.com/73823634/201696690-5212ccac-4b4f-4bd4-a304-171fa44fa95b.png)
@@ -50,8 +59,16 @@ Enfin, on le met dans docker hub :
 
 ![image](https://user-images.githubusercontent.com/111991074/201730073-227e5696-a0bf-4238-a498-7871ccb75b1a.png)
 
+Sauvegarde-->Stockage des images en ligne ou en local
 
-3/
+Réutilisation-->Exploitation des images créées
+
+Versionning-->Mise à jours des images et backlogs
+
+
+
+
+**3/Docker Compose**
 
 On créé le fichier docker-compose.yaml avec le contenu suivant : 
 
@@ -69,6 +86,12 @@ localhost:5050
 
 localhost:8069
 ![image](https://user-images.githubusercontent.com/111991074/201728760-93d337d4-8b3a-45f9-b29f-c9747f621ddc.png)
+
+**4/ Bilan pédagogique**
+
+.Meuner à bien un projet grâce à la méthode Agile
+
+.Dévellopement des compétences technique (Docker)
 
 
 
