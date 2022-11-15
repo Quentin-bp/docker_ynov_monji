@@ -66,6 +66,10 @@ Enfin, on le met dans docker hub :
 
 ![image](https://user-images.githubusercontent.com/111991074/201730073-227e5696-a0bf-4238-a498-7871ccb75b1a.png)
 
+![image](https://user-images.githubusercontent.com/111991074/201929505-95641869-c389-4f35-8086-c2490ebec677.png)
+
+![image](https://user-images.githubusercontent.com/111991074/201929575-45e1f6e1-3bea-4434-9e4f-6952229965c1.png)
+
 Sauvegarde-->Stockage des images en ligne ou en local
 
 Réutilisation-->Exploitation des images créées
