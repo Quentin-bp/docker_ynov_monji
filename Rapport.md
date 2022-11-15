@@ -20,10 +20,17 @@ PROUCHANDY Thomas
 
 **2/Dockerfile**
 
+--> Automatisation des tâches
+
+--> Infrastructure as code (IAC)  
+
+--> Scalabilité
+
 Importation de l'image python :
 
 
 On créé le Dockerfile : 
+
 
 ![image](https://user-images.githubusercontent.com/73823634/201700930-e4394fb7-f2fa-4a12-94d4-93a805aaf008.png)
 
