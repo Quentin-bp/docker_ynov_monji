@@ -8,7 +8,7 @@ VIANA Enzo
 
 PROUCHANDY Thomas
 
-**0/Présentation**
+**1/Présentation**
 
 **Passage d'Architecture Monolithique --> Architecture Microservices** : Conteneuristation des différentes applications pour éviter la surgarche d'un seul et même système.
 
@@ -18,7 +18,7 @@ PROUCHANDY Thomas
 
 **Open source** : Le code est libre d'accès ce qui permet une certaine liberté vis à vis des modifications.
 
-**1/Dockerfile**
+**2/Dockerfile**
 
 Importation de l'image python :
 
@@ -38,7 +38,7 @@ Pour terminer, on expose le port 8080 avec la commande EXPOSE qui sera le port u
 ![image](https://user-images.githubusercontent.com/73823634/201686584-af2b81ed-f058-47b4-b76e-884a280416bc.png)
 
 
-**2/Docker Registry**
+**3/Docker Registry**
 
 On importe la dernière version de docker registry
 ![image](https://user-images.githubusercontent.com/73823634/201696690-5212ccac-4b4f-4bd4-a304-171fa44fa95b.png)
@@ -68,7 +68,7 @@ Versionning-->Mise à jours des images et backlogs
 
 
 
-**3/Docker Compose**
+**4/Docker Compose**
 
 On créé le fichier docker-compose.yaml avec le contenu suivant : 
 
@@ -87,7 +87,7 @@ localhost:5050
 localhost:8069
 ![image](https://user-images.githubusercontent.com/111991074/201728760-93d337d4-8b3a-45f9-b29f-c9747f621ddc.png)
 
-**4/ Bilan pédagogique**
+**5/ Bilan pédagogique**
 
 --> Mener à bien un projet grâce à l'utilisation de méthode agiles via une démarche DevOps
 
