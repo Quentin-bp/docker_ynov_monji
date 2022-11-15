@@ -89,7 +89,7 @@ localhost:8069
 
 **5/ Bilan pédagogique**
 
---> Mener à bien un projet grâce à l'utilisation de méthode agiles via une démarche DevOps
+--> Mener à bien un projet grâce à l'utilisation de méthodes agiles via une démarche DevOps
 
 --> Développement des compétences techniques (Docker)
 
