@@ -10,9 +10,9 @@ PROUCHANDY Thomas
 
 **0/Présentation**
 
-**Passsage d'Architecture Monolithique --> Architecture Microservices** : Conteneuristation des différentes applications pour éviter la surgarche d'un seul et même système.
+**Passage d'Architecture Monolithique --> Architecture Microservices** : Conteneuristation des différentes applications pour éviter la surgarche d'un seul et même système.
 
-**Passage d'une Machine Virtuelle --> Conteuneur**: Ce dernier étant plus optimisé pour ce type de travaux grâce à un volume de stockage plus faible et une demande en ressources plus modérée, en plus de se délester de l'installation de l'OS.
+**Passage d'une Machine Virtuelle --> Conteneur**: Ce dernier étant plus optimisé pour ce type de travaux grâce à un volume de stockage plus faible et une demande en ressources plus modérée, en plus de se délester de l'installation de l'OS.
 
 **Exploitation** : Une image peut être facilement réutilisée, modifiée, détruite et reconstruite ou encore partagée grâce au Docker hub.
 
