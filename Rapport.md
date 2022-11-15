@@ -12,11 +12,11 @@ PROUCHANDY Thomas
 
 **Passsage d'Architecture Monolithique --> Architecture Microservices** : Conteneuristation des différentes applications pour éviter la surgarche d'un seul et même système.
 
-**Passage d'une Machine Virtuelle --> Conteuneur**: Ce dernier étant plus optimiser pour ce type de travaux grace a un volume de stockage plus faible et une demande en ressources plus modérée en plus de ce délester de l'installation de l'OS.
+**Passage d'une Machine Virtuelle --> Conteuneur**: Ce dernier étant plus optimisé pour ce type de travaux grâce à un volume de stockage plus faible et une demande en ressources plus modérée, en plus de se délester de l'installation de l'OS.
 
-**Exploitation** : Une image peut etre facilement réutiliser, modifier, détruite et reconstruite ou encore partager grâce au Docker hub.
+**Exploitation** : Une image peut être facilement réutilisée, modifiée, détruite et reconstruite ou encore partagée grâce au Docker hub.
 
-**Open source** : Le code est libre d'acces ce qui permet une certaine liberté vis a vis des modifications.
+**Open source** : Le code est libre d'accès ce qui permet une certaine liberté vis à vis des modifications.
 
 **1/Dockerfile**
 
@@ -52,7 +52,7 @@ On importe la dernière version de docker registry
 ![image](https://user-images.githubusercontent.com/73823634/201697415-f968ce15-dec6-4670-a4c5-aeee59d70ce2.png)
 
 
-On vérifie que le container 
+On vérifie que le container fonctionne
 ![image](https://user-images.githubusercontent.com/73823634/201697570-78d448e0-f881-4544-a20a-5258f5780e7f.png)
 
 Enfin, on le met dans docker hub :
@@ -89,9 +89,9 @@ localhost:8069
 
 **4/ Bilan pédagogique**
 
-.Meuner à bien un projet grâce à la méthode Agile
+--> Mener à bien un projet grâce à l'utilisation de méthode agiles via une démarche DevOps
 
-.Dévellopement des compétences technique (Docker)
+--> Développement des compétences techniques (Docker)
 
 
 
